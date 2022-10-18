@@ -7,7 +7,28 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Yahoo",
+			"id": "4edc0898-cbd9-4aa8-b98e-2f3048f96e01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.yahoo.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"yahoo",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google",
 			"id": "346654d5-69a7-4562-8a2d-adbe239bfb05",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -20,6 +41,27 @@
 					"host": [
 						"www",
 						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Instegram",
+			"id": "40b0beb1-a77c-4c63-908b-4d981cff5ac3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.instegram.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"instegram",
 						"com"
 					]
 				}
